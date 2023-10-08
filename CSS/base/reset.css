@@ -1,0 +1,47 @@
+/*~~~~~~~~~~~~~~~~~~~~ Scroll Bar ~~~~~~~~~~~~~~~~~~~~*/
+
+html{
+    scroll-snap-type:  y mandatory;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #D5DDDF;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: large;
+    text-align: justify;
+}
+html,body{
+    overflow-x: hidden;
+}
+*{
+    scrollbar-width: thin;
+    scrollbar-color: #CFE1B9 #849669;
+}
+*::-webkit-scrollbar{
+    width: 15px;
+}
+*::-webkit-scrollbar-track{
+    background-color: #CFE1B9;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: #849669;
+    border-radius: 10px;
+    border: 2px solid #DCEBCA;
+}
+*::-webkit-scrollbar-track:hover{
+    background-color: #C2D5AA;
+}
+*::-webkit-scrollbar-thumb:hover{
+    background-color: #728359;
+    border-radius: 10px;
+    border: 2px solid #DCEBCA;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+    color: #1B2727;
+}
+img{
+    width: 100%;
+    height: auto;
+}

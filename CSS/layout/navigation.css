@@ -1,0 +1,22 @@
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    font-size: 1.2rem;
+}
+#top .nav{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px;
+    
+}
+.nav a{
+    font-size: 1.02rem;
+    text-decoration: none;
+    text-align: center;
+    color: #C2D5AA;
+    padding: 5px;
+    border: 2px #1B2727  solid;
+    border-radius: 5px;
+}
