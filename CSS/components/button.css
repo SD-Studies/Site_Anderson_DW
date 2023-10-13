@@ -2,21 +2,24 @@
     border: none;
     padding: 10px 60px;
     border-radius: 50px;
-    background-color: #97a97cad;
-    box-shadow: inset 5px -10px  20px #606f49ab;
-
+    background-color: #97A97C;
+    box-shadow: inset 5px -10px  20px #606F49;
+    border: 3px solid #CACDA5;
+    margin-top: 20px;
 }
+
+
+
 .btn a{
     text-decoration: none;
     color: #1B2727;
     font-size: 1.1rem;
-    font-weight: bold;
 } 
 .btn:hover{
     border: none;
     padding: 10px 60px;
     border-radius: 50px;
-    background-color: #A3A277;
-    box-shadow: inset 5px -10px  25px #CACDA5;
-
+    background-color: #97A97C;
+    box-shadow: inset 5px -10px  20px #606F49;
+    border: 3px solid #4E4F3D;
 }

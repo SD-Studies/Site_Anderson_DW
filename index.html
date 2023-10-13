@@ -6,8 +6,7 @@
     <title>Página Inicial</title>
     <link rel="icon" type="image/svg+xml" href="/Imagens/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    
-    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="/CSS/main.css">
 <body>
     <header>
         <div id="top">
@@ -30,7 +29,7 @@
     
     <main id="info">
         <div id="img">
-            <img src="/Imagens/amarelo3.jpg" alt="Professor Anderson Fernandes Souza">
+            <img src="./Imagens/amarelo3.jpg" alt="Professor Anderson Souza">
         </div>
         <div id="sobre">
             <div>
@@ -44,42 +43,76 @@
         </div>
     </main>
     <section id="faculdade">
-        <h2>Formação Acadêmica</h2>
+        <h2 class="destaque">Formação Acadêmica</h2>
         <div class="container">
             <div class="div-card">
                 <div>
                     <img src="/Imagens/Uenf2.jpg" alt="Universidade Estadual do Norte Fluminense">
                     <p>Licenciatura em Biologia e Doutorado em Genética e Melhoramento de Plantas pela Universidade Estadual do Norte Fluminense.</p>
-                    <button class="btn">
-                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi21Mewyc6BAxUiu5UCHQCSDUUQFnoECAoQAQ&url=https%3A%2F%2Fwww.uenf.br%2F&usg=AOvVaw0jebfLZ_QiEw7kcRBxcrzk&opi=89978449" target="_blank">Mais</a>
-                    </button>
+                    <div id="botao">
+
+                        <button class="btn">
+                            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi21Mewyc6BAxUiu5UCHQCSDUUQFnoECAoQAQ&url=https%3A%2F%2Fwww.uenf.br%2F&usg=AOvVaw0jebfLZ_QiEw7kcRBxcrzk&opi=89978449" target="_blank">Mais</a>
+                        </button>
+                    </div>
 
                 </div>
             </div>
             <div class="div-card">
                 <div>
-                    <img src="/Imagens/UFMS2.png" alt="Universidade Federal do Mato Grosso do Sul"">
+                    <img src="/Imagens/UFMS2.png" alt="Universidade Federal do Mato Grosso do Sul">
                     <p>Mestrado em Biologia Vegetal pela Universidade Federal do Mato Grosso do Sul.</p>
-                    <button class="btn">
-                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi5y8Puyc6BAxVxqJUCHUubAAgQFnoECAkQAQ&url=https%3A%2F%2Fwww.ufms.br%2F&usg=AOvVaw0_use-VqoLgf1TrYkSwULd&opi=89978449">Mais</a>
-                    </button>
+                    <div class="botao">
+
+                        <button class="btn">
+                            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi5y8Puyc6BAxVxqJUCHUubAAgQFnoECAkQAQ&url=https%3A%2F%2Fwww.ufms.br%2F&usg=AOvVaw0_use-VqoLgf1TrYkSwULd&opi=89978449">Mais</a>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="Outros">
-        <div id="Material">
-            <button class="btn">Mais</button>
-        </div>
-        <div id="Projetos">
-            <button class="btn">Mais</button>
+    <section id="outros">
+        <h2 class="destaque">
+            Outros
+        </h2>
+        <div class="container">
+            <div class="div-card">
+                <div>
+                    <h3>
+                        Materiais
+                    </h3>
+
+                    <p>
+                        Clique no botão abaixo e encontre materiais das matéria de biologia que preparo para meus alunos 
+                    </p>
+                    
+                    <button class="btn"><a href="">Mais</a></button>
+                </div>
+            </div>
+
+
+            <div class="div-card">
+                <div>
+                    <h3>
+                        Projetos
+                    </h3>
+                    <p>
+                        Clique no botão abaixo e encontre projetos feitos por mim e meus alunos
+                    </p>
+                    <button class="btn"><a href="">Mais</a></button>
+                </div>
+            </div>
         </div>
     </section>
-    <iframe src=""></iframe>
+    <article>
+        <h2 class="destaque">Localização CEFET-RJ Nova Friburgo</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d426.3560121959264!2d-42.52313440590666!3d-22.245083763267065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97f53b7d1d661d%3A0x8546df88b7f17ffd!2sCEFET%20-%20Nova%20Friburgo!5e1!3m2!1spt-BR!2sbr!4v1697209990081!5m2!1spt-BR!2sbr" width="70%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </article>
     <footer>
         <div id="contato">
-            
-            <a href="mailto:#"></a>
+            <h5>Envie-me um email: </h5>
+            <a href="mailto:anderson.souza@cefet-rj.br"> Clique aqui</a>
         </div>
     </footer>
 

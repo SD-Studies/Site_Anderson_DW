@@ -1,5 +1,5 @@
 
-/* vendors */
+/* vedors */
 @import './vendors/bootstrap.min.css';
 
 
@@ -13,14 +13,17 @@
 
 /* layout */
 @import './layout/header.css';
+
 @import './layout/navigation.css';
+
+@import './layout/footer.css';
 
 /* pages */
 @import './pages/materiais.css';
 
 @import './pages/principal.css';
 
-@import './pages/projetos.css';
+@import'./pages/projetos.css';
 
 /* utils */
 @import './utils/utilities.css';
