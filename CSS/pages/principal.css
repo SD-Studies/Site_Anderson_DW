@@ -26,33 +26,7 @@
 }
 
 @media screen and (min-width: 901px){
-        /* Paleta de cores:
 
-    Escolhidas pelo professor:
-    #1B2727
-    #3C5138
-    #6B8E4E
-    #B2C5B2
-    #D5DDDF
-
-    Complementares:
-    #CACDA5
-    #99A285
-    #4E4F3D
-    #636851
-    #A3A277
-    #A0B179
-
-    #606F49
-    #728359
-    #849669
-    #97A97C
-    #A6B98B
-    #B5C99A
-    #C2D5AA
-    #CFE1B9
-    #DCEBCA
-*/
 
     /* Sobre o professor */
     #info{
@@ -131,10 +105,13 @@
 
     /* Footer */
     #contato{
+        width: 100%;
+        border-top: 2px solid #1B2727;
         display: flex;
         justify-content: baseline;
         align-items: center;
         padding: 0 20px;
+        margin-top: 70px;
     }
     #contato h5{
         font-size: 1.2rem;

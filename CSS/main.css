@@ -1,32 +1,20 @@
 
-/* vedors */
+/* vendors */
 @import './vendors/bootstrap.min.css';
-
-
 /* base */
 @import './base/reset.css';
-
 @import './base/typograph.css';
-
 /* components */
 @import './components/button.css';
-
 /* layout */
 @import './layout/header.css';
-
-@import './layout/navigation.css';
-
 @import './layout/footer.css';
-
+@import './layout/navigation.css';
 /* pages */
-@import './pages/materiais.css';
-
 @import './pages/principal.css';
-
-@import'./pages/projetos.css';
-
+@import './pages/materiais.css';
+@import './pages/projetos.css';
+@import './pages/contato.css';
 /* utils */
 @import './utils/utilities.css';
-
 @import './utils/variables.css';
-

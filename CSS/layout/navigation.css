@@ -1,11 +1,12 @@
-#top{
+.top{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 15px;
     font-size: 1.2rem;
 }
-#top .nav{
+
+.top .nav{
     display: grid;
     grid-template-columns: 50% 50%;
     margin: 10px;
