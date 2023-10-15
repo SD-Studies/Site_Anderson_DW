@@ -1,0 +1,10 @@
+.c-conteudo{
+    width: 100%;
+}
+.c-conteudo h2{
+    text-align: left;
+}
+.c-conteudo img{
+    width: 100%;
+    height: 300px;
+}

@@ -18,32 +18,19 @@
     justify-content: center;
     align-items: center;
 }
-.projeto{
+.c-projetos__projeto{
     width: 80%;
     margin-bottom: 50px;
 
     padding: 20px;    
     text-align: center;
 }
-.projeto > h3{
+.c-projetos__projeto > h3{
     text-align: left;
 }
-.projeto img{
+.c-projetos__projeto img{
     min-width: 200px;
     max-width: 350px;
     height: 250px;
     border-radius: 30px;
-}
-
-.c-contato{
-    background-color: #A3A277;
-    display: flex;
-    align-items: baseline;
-
-}
-.c-contato > h3{
-    padding: 0 5px;
-}
-.c-contato a{
-    padding: 5px;
 }

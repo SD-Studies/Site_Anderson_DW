@@ -1,0 +1,64 @@
+
+form{
+    min-width: 200px;
+    max-width: 400px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.c-form{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.c-form__input{
+    width: 100%;
+    margin: 20px;
+}
+.c-form__input input{
+    min-width: 80%;
+    max-width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.c-form__input input::placeholder{
+    color: #1B2727;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: medium;
+}
+
+textarea{
+    min-width: 80%;
+    max-width: 100%;
+    border: none;
+    margin-left: 2%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.submit{
+    border: none;
+    min-width: 80%;
+    max-width: 100%;
+    margin-left: 2%;
+    padding: 13px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    background-color: #A3A277;
+}
+.submit:hover{
+    background-color: #B2C5B2;
+    
+}
+.submit{
+    cursor: pointer;
+}
+

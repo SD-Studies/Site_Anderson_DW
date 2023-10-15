@@ -1,0 +1,13 @@
+.c-contato{
+    background-color: #A3A277;
+    display: flex;
+    align-items: baseline;
+    margin-top: 60px;
+
+}
+.c-contato > h3{
+    padding: 0 5px;
+}
+.c-contato a{
+    padding: 5px;
+}

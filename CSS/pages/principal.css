@@ -25,6 +25,21 @@
     padding: 10px;
 }
 
+/* Footer */
+#contato{
+    width: 100%;
+    border-top: 2px solid #1B2727;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 90px;
+    flex-wrap: wrap;
+}
+#contato h5{
+    font-size: 1.2rem;
+}
+
 @media screen and (min-width: 901px){
 
 
@@ -101,20 +116,6 @@
     }
     iframe{
         margin-top: 40px;
-    }
-
-    /* Footer */
-    #contato{
-        width: 100%;
-        border-top: 2px solid #1B2727;
-        display: flex;
-        justify-content: baseline;
-        align-items: center;
-        padding: 0 20px;
-        margin-top: 70px;
-    }
-    #contato h5{
-        font-size: 1.2rem;
     }
 }
 

@@ -1,0 +1,34 @@
+.c-conteudo h2{
+    margin-left: 20px;
+}
+.c-projeto{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+
+.c-projetos__imagens{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin: auto;
+    text-align: center;
+}
+.c-projetos--imagens__img,.c-projetos__img{
+    min-width: 200px;
+    max-width: 300px;
+}
+.c-projetos__img{
+    margin: auto;
+}
+
+
+@media screen and (max-width: 699px) {
+    .c-projetos__imagens{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
