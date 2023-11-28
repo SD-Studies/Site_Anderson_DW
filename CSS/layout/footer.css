@@ -2,10 +2,10 @@
     background-color: #A3A277;
     display: flex;
     align-items: baseline;
-    margin-top: 80px;
+    margin-top: 100px;
 
 }
-.c-contato > h3{
+.c-contato > h4{
     padding: 0 5px;
 }
 .c-contato a{
